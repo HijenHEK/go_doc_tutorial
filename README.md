@@ -2,9 +2,9 @@
 
 visit [Go doc tutorial page](https://go.dev/doc/tutorial/)
 
-i will be sharing the code while discovering go on the go in this repository !
+### i will be sharing the code while discovering go on the go in this repository !
 
-feel free to join me !
+#### feel free to join me !
 
 ## Structure 
 
