@@ -25,7 +25,7 @@ for example :
  <br> <small> Say Hello, World with Go. </small>
  - [x] **Create a module**:
  <br> <small> A multi-part tutorial that introduces common programming language features from the Go perspective. </small>
- - [ ] **Getting started with multi-module workspaces**:
+ - [x] **Getting started with multi-module workspaces**:
  <br>    <small> Introduces the basics of creating and using multi-module workspaces in Go. Multi-module workspaces are useful for making changes across multiple modules. </small>
  - [ ] **Accessing a relational database**:
  <br> <small> Introduces the basics of accessing a database using the standard library. </small>
