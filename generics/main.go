@@ -20,6 +20,15 @@ func SumFloats(m map[string]float64) float64 {
 	return s
 }
 
+func SumIntsOrFloats[K comparable, V int64 | float64](m map[K]V) V {
+	var s V
+	for _, v := range m {
+		s += v
+	}
+
+	return s
+}
+
 func main() {
 	ints := map[string]int64{
 		"first":  40,
@@ -34,5 +43,9 @@ func main() {
 	fmt.Printf("Non Generic Sums: %v and %v\n",
 		SumInts(ints),
 		SumFloats(floats))
+
+	fmt.Printf("Generic Sums: %v and %v\n",
+		SumIntsOrFloats(ints),
+		SumIntsOrFloats(floats))
 
 }
