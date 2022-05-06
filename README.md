@@ -33,7 +33,7 @@ for example :
  <br>    <small> Introduces the basics of writing a RESTful web service API with Go and the Gin Web Framework. </small>
  - [x] **Getting started with generics**:
  <br>   <small> Introduces the basics of generics in Go.  With generics, you can declare and use functions or types that are written to work with any of a set of types provided by calling code. </small>
- - [ ] **Getting started with fuzzing**:
+ - [x] **Getting started with fuzzing**:
  <br>    <small> Introduces the basics of fuzzing in Go.  Fuzzing can generate inputs to your tests that can catch edge cases and security issues that you may have missed. </small>
  - [ ] **A Tour of Go	An interactive introduction to Go**:
  <br>   <small> basic syntax and data structures; methods and interfaces; and Go's concurrency primitives. </small>
